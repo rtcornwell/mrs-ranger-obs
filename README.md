@@ -8,12 +8,18 @@ Overview of Ranger plugin for OBS service on open Telekom Cloud
 3.	ranger-obs-client: Hadoop-obs integrates this plugin to forward requests that require permission validation to the ranger-obs-service
 
 Development Environment requirements (JAVA)
+
 Development Kits for Java
+
 JDK 1.8.0 X86_64
+
 JRE 1.8.0 X86_64
+
 Apache Maven 3.8
+
 Gather the following information from your apache ranger installation:
 In ENV_VARS: RANGER_ADMIN_HOME
+
 Directory to put plugins = <RANGERADMIN_HOME>/ews/webapp/WEB-INF/classes/ranger-plugins/obs
 RANGER_ADMIN_CONF_DIR=<RANGERADMIN_HOME>/etc
 Use the built in account "rangeradmin" for all configuration of ranger or the account you setup for ranger.
